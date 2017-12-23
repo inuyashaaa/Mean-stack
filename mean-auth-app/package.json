@@ -1,0 +1,23 @@
+{
+  "name": "mean-auth-app",
+  "version": "1.0.0",
+  "description": "First MEAN app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemon": "^1.12.6",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Illuminati",
+  "license": "ISC"
+}
